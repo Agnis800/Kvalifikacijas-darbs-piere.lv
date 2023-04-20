@@ -1,0 +1,57 @@
+header {
+    background-color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logoBlack {
+    width: 159px;
+    height: 146px;
+    left: 62px;
+    top: -50px;
+
+background: url(BlackLogo);
+}
+
+main {
+    background-color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text1 {
+    text-align: center;
+    height: 114px;
+    width: 654px;
+    left: 359px;
+    top: 919px;
+    border-radius: nullpx;
+
+}
+
+.heading {
+    font-family: 'Oswald', sans-serif;
+}
+
+.button {
+    background-color: #efcc00;
+    border-radius: 50%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.piekrišana {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+aside {
+    background-color: #efcc00;
+}
+
+footer {
+    background-color: #2F4858;
+    color: #FFFFFF;
+}
+
+form::placeholder {
+    font-family: 'Montserrat', sans-serif;
+}

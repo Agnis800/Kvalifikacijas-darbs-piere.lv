@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <header>
@@ -24,7 +25,10 @@
         </div>
     </header>
     <main>
-        <img src="assets/img/Sparkle Video 1.png" alt="Sparkle Video">
+        <div class="playButton">
+           <button type="button"></button>
+           <img src="assets/img/Sparkle Video 1.png" class="sparkleVideo" alt="Sparkle Video">
+        </div>
     <div class="text1">
         <p>
             SparkleHeart ir biedrība, kas radīta, lai palīdzētu cilvēkiem piepildīt pat 
@@ -50,10 +54,10 @@
     <div class="form">
         <h3 class="heading">SAZINĀTIES AR MUMS</h3>
         <form>
-            <input type="text" id="namesurname" name="namesurname" placeholder="Vārds, uzvārds*" required><br>
-            <input type="text" id="e-mail" name="e-mail" placeholder="E-mail*" required><br>
-            <input type="text" id="phone-number" name="phone-number" placeholder="Telefons*" required><br>
-            <textarea id="message" name="message" placeholder="Jautājums, vai komentārs*" style="height: 232px" required></textarea><br>
+            <label><input type="text" id="namesurname" name="namesurname" placeholder="Vārds, uzvārds*" required></label><br>
+            <label><input type="text" id="e-mail" name="e-mail" placeholder="E-mail*" required></label><br>
+            <label><input type="text" id="phone-number" name="phone-number" placeholder="Telefons*" required></label><br>
+            <label><textarea id="message" name="message" placeholder="Jautājums, vai komentārs*" style="height: 232px" required></textarea></label>
             <p>*obligāti aizpildamie lauki</p>
             <div class="piekrišana">
             <input type="checkbox" id="piekrišana" name="piekrišana" value="piekrišana">
@@ -62,7 +66,7 @@
             <input class="button" type="submit" value="Sūtīt">
         </form>
     </div>
-    <main>
+</main>
     <aside>
     <div class="atbalstītāji">
         <h3 class="heading">ATBALSTĪTĀJI</h3>

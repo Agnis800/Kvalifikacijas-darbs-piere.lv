@@ -56,6 +56,7 @@ main {
     padding: 0 4px;
     max-width: 100%;
 }
+
 .column {
     flex: 20%;
     max-width: 25%;
@@ -70,17 +71,36 @@ main {
 
 .heading {
     font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
 }
 
 .button {
     color: white;
     background-color: #efcc00;
-    border-radius: 50%;
+    border: none;
+    padding: 15px 32px;
+    border-radius: 30%;
     font-family: 'Montserrat', sans-serif;
 }
 
 .form {
     text-align: center;
+}
+
+.button1 {
+    float: left;
+    text-align: center;
+    padding: 50px;
+}
+
+.button2 {
+    float: right;
+    text-align: center;
+    padding: 50px;
 }
 
 
@@ -149,5 +169,11 @@ footer {
         left: 20px;
         top: 298px;
         border-radius: nullpx;        
+    }
+
+    .column {
+        flex: 20%;
+        max-width: 25%;
+        padding: 0 4px;
     }
 }

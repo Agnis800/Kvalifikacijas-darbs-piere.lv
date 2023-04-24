@@ -1,3 +1,7 @@
+a, a:visited {
+    text-decoration: none;
+}
+
 header {
     background-color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
@@ -5,8 +9,20 @@ header {
     font-weight: 500;
     line-height: 22px;
     letter-spacing: 0em;
-    text-align: left;
+}
 
+.logoBlack {
+    left: 10px;
+}
+
+.menu1 {
+    float: right;
+    padding: 25px;    
+}
+
+.item {
+    padding: 20px;
+    
 }
 
 .sparkleVideo {
@@ -31,7 +47,7 @@ main {
     left: 359px;
     top: 919px;
     border-radius: nullpx;
-
+    
 }
 
 .images {
@@ -92,6 +108,25 @@ input[type=text], textarea {
 aside {
     background-color: #efcc00;
 }
+
+.SparkleLogoYellow {
+    padding: 35px;
+}
+
+.list2 a {
+    display: block;
+    padding: 12px;
+}
+
+/* .footer1 {
+    float: left;
+}
+
+.contacts {
+    float: right;
+    
+}
+*/
 
 footer {
     background-color: #2F4858;
